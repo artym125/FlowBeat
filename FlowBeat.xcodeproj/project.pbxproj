@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B55BB93B2C68D5590038419C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55BB93A2C68D5590038419C /* CameraView.swift */; };
+		B5A643ED2C6E91DE00A32AB0 /* AnimatedNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A643EC2C6E91DE00A32AB0 /* AnimatedNavigationStack.swift */; };
 		B5D32C942C663DF100F2F406 /* FlowBeatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D32C932C663DF100F2F406 /* FlowBeatApp.swift */; };
 		B5D32C962C663DF100F2F406 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D32C952C663DF100F2F406 /* ContentView.swift */; };
 		B5D32C982C663DF100F2F406 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D32C972C663DF100F2F406 /* Item.swift */; };
 		B5D32C9A2C663DF200F2F406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D32C992C663DF200F2F406 /* Assets.xcassets */; };
 		B5D32C9E2C663DF200F2F406 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D32C9D2C663DF200F2F406 /* Preview Assets.xcassets */; };
+		B5D32CA52C663E0B00F2F406 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D32CA42C663E0B00F2F406 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B55BB9392C68D51D0038419C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B55BB93A2C68D5590038419C /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B5A643EC2C6E91DE00A32AB0 /* AnimatedNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedNavigationStack.swift; sourceTree = "<group>"; };
 		B5D32C902C663DF100F2F406 /* FlowBeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowBeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D32C932C663DF100F2F406 /* FlowBeatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowBeatApp.swift; sourceTree = "<group>"; };
 		B5D32C952C663DF100F2F406 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +28,7 @@
 		B5D32C992C663DF200F2F406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5D32C9B2C663DF200F2F406 /* FlowBeat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlowBeat.entitlements; sourceTree = "<group>"; };
 		B5D32C9D2C663DF200F2F406 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5D32CA42C663E0B00F2F406 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5A643EB2C6E91A500A32AB0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B5A643EC2C6E91DE00A32AB0 /* AnimatedNavigationStack.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		B5D32C872C663DF100F2F406 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +69,12 @@
 		B5D32C922C663DF100F2F406 /* FlowBeat */ = {
 			isa = PBXGroup;
 			children = (
+				B5A643EB2C6E91A500A32AB0 /* Helpers */,
+				B55BB9392C68D51D0038419C /* Info.plist */,
 				B5D32C932C663DF100F2F406 /* FlowBeatApp.swift */,
+				B55BB93A2C68D5590038419C /* CameraView.swift */,
 				B5D32C952C663DF100F2F406 /* ContentView.swift */,
+				B5D32CA42C663E0B00F2F406 /* TestView.swift */,
 				B5D32C972C663DF100F2F406 /* Item.swift */,
 				B5D32C992C663DF200F2F406 /* Assets.xcassets */,
 				B5D32C9B2C663DF200F2F406 /* FlowBeat.entitlements */,
@@ -142,8 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D32CA52C663E0B00F2F406 /* TestView.swift in Sources */,
+				B5A643ED2C6E91DE00A32AB0 /* AnimatedNavigationStack.swift in Sources */,
 				B5D32C962C663DF100F2F406 /* ContentView.swift in Sources */,
 				B5D32C982C663DF100F2F406 /* Item.swift in Sources */,
+				B55BB93B2C68D5590038419C /* CameraView.swift in Sources */,
 				B5D32C942C663DF100F2F406 /* FlowBeatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,12 +294,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FlowBeat/FlowBeat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"FlowBeat/Preview Content\"";
 				DEVELOPMENT_TEAM = LBMSRRR88A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowBeat/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -292,7 +315,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ostapartym.FlowBeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -310,12 +333,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FlowBeat/FlowBeat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"FlowBeat/Preview Content\"";
 				DEVELOPMENT_TEAM = LBMSRRR88A;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowBeat/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -330,7 +354,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ostapartym.FlowBeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
